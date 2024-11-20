@@ -48,7 +48,7 @@ import sqlite3
 
 
 # Load Gemini AI model
-genai.configure(api_key='AIzaSyCaz-8RhG6tW1SuLq5L_QINLTm9neK9dX0')
+genai.configure(api_key='key')
 gemini_model = genai.GenerativeModel('gemini-pro')
 chat = gemini_model.start_chat(history=[])
 
